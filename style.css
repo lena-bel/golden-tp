@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(bg_header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header section nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header section {
+    display: flex;
+    
+}
