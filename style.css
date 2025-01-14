@@ -12,14 +12,14 @@ header {
     width: auto;
     height: auto; */
 }
-   
+
 .nav-bar nav {
     display: flex;
     justify-content: space-between;
     gap: 25px;
 }
 
-header> div:first-child > p {
+header>div:first-child>p {
     color: rgb(246, 186, 7);
     font-family: "Playwrite IN", serif;
     font-optical-sizing: auto;
@@ -44,21 +44,36 @@ header> div:first-child > p {
     color: white;
 }
 
-.presentation p{
+.presentation p {
     font-size: 30px;
     font-style: italic;
     padding-bottom: 18px;
 }
-.presentation .larger-p{
+
+.presentation .larger-p {
     font-style: normal;
     font-size: 50px;
     font-weight: bolder;
 }
-.presentation button{
+
+.presentation button {
     padding: 15px;
     width: 170px;
     background-color: rgb(241, 195, 58);
     font-weight: bold;
     color: white;
     border: none;
+}
+
+#services .pres{
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.pres h2{
+    font-weight: bold;
+}
+.pres p{
+    color: gray;
+    font-style: italic;
+    padding-top: 8px;
 }
