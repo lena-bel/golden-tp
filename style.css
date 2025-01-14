@@ -8,6 +8,7 @@ header {
     background-image: url(bg_header.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 51vh;
     /* background-color: rgba(0, 0, 0, 0.5);
     width: auto;
     height: auto; */
@@ -65,15 +66,77 @@ header>div:first-child>p {
     border: none;
 }
 
-#services .pres{
+.pres {
     text-align: center;
-    padding: 50px 0 20px 0;
+    padding: 100px 0 20px 0;
 }
-.pres h2{
+
+.pres h2 {
     font-weight: bold;
 }
-.pres p{
+
+.pres p {
     color: gray;
     font-style: italic;
     padding-top: 8px;
+}
+
+.service {
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px 100px 100px;
+}
+
+.sub-service {
+    text-align: center;
+}
+
+.sub-service p {
+    color: gray;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    word-break: break-all;
+
+}
+
+.sub-service h3 {
+    padding: 5px;
+}
+
+.sub-service img {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(241, 195, 58);
+    padding: 16px;
+    border-radius: 50%;
+}
+
+#portfolio {
+    background-color: rgb(250, 247, 247);
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    place-self: center;
+    gap: 50px;
+    padding: 50px 0 100px 0;
+}
+
+.portfolio-presentatio {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.portfolio-presentatio p:last-child {
+    font-style: italic;
+    color: gray;
+
+}
+
+.portfolio div img {
+    width: 300px;
+    height: 300px;
 }
