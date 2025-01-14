@@ -3,17 +3,35 @@
 }
 
 header {
-    background-image: url(bg_header.png);
+    /* background-image: url(bg_header.png);
     background-size: cover;
     background-repeat: no-repeat;
+} */
+    background-color: gray;
+    height: 400px;
 }
 
-header section nav{
+.nav-bar nav {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
-header section {
+header> div:first-child > p {
+    color: rgb(246, 186, 7);
+    font-family: "Playwrite IN", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.nav-bar nav p a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
     display: flex;
-    
+    justify-content: space-around;
+    padding-top: 50px;
 }
