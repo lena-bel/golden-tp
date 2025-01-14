@@ -185,3 +185,55 @@ header>div:first-child>p {
 .team-memberexa p {
     padding: 6px;
 }
+
+#partners {
+    background-color: rgb(250, 247, 247);
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#partners h2{
+    display: none;
+}
+
+#contact-us {
+    background-image: url(team/map_contact.png);
+    background-color: rgb(28, 23, 23);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+#contact-us .pres h2{
+    color: white;
+    font-size: 50px;
+}
+.visual {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.visual div input{
+    height: 30px;
+    width: 500px;
+    margin: 10px;
+}
+.visual .message #message{
+    height: 142px;
+    width: 500px;
+    margin: 10px;
+}
+form button{
+    padding: 15px;
+    margin-top: 10px;
+    width: 170px;
+    background-color: rgb(241, 195, 58);
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
