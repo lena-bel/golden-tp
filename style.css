@@ -37,25 +37,25 @@ header>div:first-child>p {
     padding-top: 50px;
 }
 
-.presentation {
+#presentation {
     text-align: center;
     padding: 65px;
     color: white;
 }
 
-.presentation p {
+#presentation p {
     font-size: 30px;
     font-style: italic;
     padding-bottom: 18px;
 }
 
-.presentation .larger-p {
+#presentation .larger-p {
     font-style: normal;
     font-size: 50px;
     font-weight: bolder;
 }
 
-.presentation button {
+#presentation button {
     padding: 15px;
     width: 170px;
     background-color: rgb(241, 195, 58);
